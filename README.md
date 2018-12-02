@@ -24,3 +24,9 @@ if __name__ == "__main__":
 ### MWeb
 
 ![](https://gitee.com/athlonreg/picbed/raw/master/Images/b4/20dbc755692fc09aff518901033fb4.jpg)
+
+> 图片URL前缀为
+
+`https://gitlab.com/Syncanvas/gitlab-picbed/raw/master/Images`
+
+将`Syncanvas`修改为你的用户名，`gitlab-picbed`改为存放图片的项目名。
