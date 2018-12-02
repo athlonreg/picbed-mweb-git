@@ -1,0 +1,13 @@
+[2018-12-02 18:27:35 +0800] [10822] [INFO] Goin' Fast @ http://127.0.0.1:7003
+[2018-12-02 18:27:35 +0800] [10822] [INFO] Starting worker [10822]
+[2018-12-02 18:28:37 +0800] [10822] [ERROR] Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/sanic/app.py", line 546, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.7/site-packages/sanic/router.py", line 344, in get
+    return self._get(request.path, request.method, '')
+  File "/usr/local/lib/python3.7/site-packages/sanic/router.py", line 393, in _get
+    raise NotFound('Requested URL {} not found'.format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+
+[2018-12-02 18:28:37 +0800] - (sanic.access)[INFO][1:2]: POST http://127.0.0.1:7003/  404 32
+[2018-12-02 18:28:42 +0800] [10822] [INFO] KeepAlive Timeout. Closing connection.

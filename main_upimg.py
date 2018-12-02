@@ -70,7 +70,7 @@ async def upimg(request):
 	tempFile.write(image)
 	tempFile.close()
 	
-	# 自动提交到 Gitee 远程仓库便于调用
+	# 自动提交到 GitLab 远程仓库便于调用
 	os.system('cd /Users/canvas/Documents/Tower/gitlab-picbed && git add . && git commit -m "Added some imgs" && git push origin master')
 
 	# 给客户端返回结果
