@@ -26,8 +26,8 @@ if __name__ == "__main__":
 
 ![](https://gitee.com/athlonreg/picbed/raw/master/Images/60/8bfa1f2c5f8e9a3a9479823ae4ad43.jpg)
 
-图片`URL`前缀为
+> 图片`URL`前缀为
 
-`https://coding.net/u/iamzhl/p/PicBed/git/raw/master/Images/`
+`https://coding.net/u/iamzhl/p/PicBed/git/raw/master/Images`
 
 将`iamzhl`修改为你的用户名，`PicBed`改为存放图片的项目名。
