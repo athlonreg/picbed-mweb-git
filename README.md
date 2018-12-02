@@ -24,3 +24,9 @@ if __name__ == "__main__":
 ### MWeb
 
 ![](https://gitee.com/athlonreg/picbed/raw/master/Images/12/94d456fa40eaccea1da1010db56a2a.jpg)
+
+> 图片URL前缀为
+
+`https://gitee.com/athlonreg/picbed/raw/master/Images`
+
+将`athlonreg`修改为你的用户名，`picbed`改为存放图片的项目名。
