@@ -4,7 +4,7 @@
 
 ### 改为要存储的本地目录
 ```python
-baseDir = '/Users/canvas/Documents/Tower/picbed/Images/'
+baseDir = '/Users/canvas/Documents/Tower/coding-picbed/Images/'
 ```
 
 ### 自动提交到 Coding 远程仓库便于调用
@@ -12,7 +12,7 @@ baseDir = '/Users/canvas/Documents/Tower/picbed/Images/'
 > 修改为自己的远程`coding`地址
 
 ```python
-os.system('cd /Users/canvas/Documents/Tower/picbed && git add . && git commit -m "Added some imgs" && git push origin master')
+os.system('cd /Users/canvas/Documents/Tower/coding-picbed && git add . && git commit -m "Added some imgs" && git push origin master')
 ```
 
 ### 修改端口号
