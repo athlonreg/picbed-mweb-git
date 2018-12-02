@@ -6,7 +6,7 @@ import os, sys
 import hashlib
 
 app = Sanic()
-baseDir = '/Users/canvas/Documents/Tower/picbed/Images/'
+baseDir = '/Users/canvas/Documents/Tower/coding-picbed/Images/'
 
 # 成功以及失败的返回脚本
 def ok(data):
@@ -71,10 +71,10 @@ async def upimg(request):
 	tempFile.close()
 	
 	# 自动提交到 Gitee 远程仓库便于调用
-	os.system('cd /Users/canvas/Documents/Tower/picbed && git add . && git commit -m "Added some imgs" && git push origin master')
+	os.system('cd /Users/canvas/Documents/Tower/coding-picbed && git add . && git commit -m "Added some imgs" && git push origin master')
 
 	# 给客户端返回结果
 	return ok({"path": resPath})
 
 if __name__ == "__main__":
-	app.run(host="127.0.0.1", port=7001)
+	app.run(host="127.0.0.1", port=7002)
