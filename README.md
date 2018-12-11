@@ -7,8 +7,8 @@
 baseDir = '/Users/canvas/Documents/Tower/gitlab-picbed/Images/'
 ```
 
-### 自动提交到 Gitee 远程仓库便于调用
-> 修改为自己的远程码云地址
+### 自动提交到`GitLab`远程仓库便于调用
+> 修改为自己的远程`GitLab`地址
 
 ```python
 os.system('cd /Users/canvas/Documents/Tower/gitlab-picbed && git add . && git commit -m "Added some imgs" && git push origin master')
